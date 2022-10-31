@@ -1,1 +1,36 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+}
+.bodycard {
+  background: white;
+  margin: auto;
+  margin-top: 10px;
+  height: 500px;
+  width: 340px;
+  border-radius: 15px;
+  position: relative;
+}
+.icono1 {
+  font-size: 100px;
+  position: absolute;
+  top: 0px;
+  left: 16px;
+}
+.centro {
+  text-align: center;
+  font-size: 150px;
+  position: relative;
+  top: 118px;
+}
+.icono2 {
+  font-size: 100px;
+  position: absolute;
+  bottom: 0px;
+  right: 16px;
+  transform: rotate(180deg);
+}
+.red {
+  color: red;
+}
